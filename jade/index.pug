@@ -33,11 +33,12 @@ body
 		.Contacto-escribir
 			.Contacto-escribir-total
 				h1.Contacto-escribir-total-title Contactar
-				p.Contacto-escribir-total-description  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt cumque, ipsum eligendi libero rerum! Ipsam laudantium excepturi, perferendis soluta labore illo fuga, pariatur praesentium cumque libero, natus quasi, temporibus voluptas!
+				p.Contacto-escribir-total-description  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt cumque, ipsum eligendi libero rerum! Ipsam laudantium excepturi.
 				form.Contacto-escribir-total-formulario
-					input.form-control.Contacto-escribir-total-formulario-item(type="text")
-					input.form-control.Contacto-escribir-total-formulario-item(type="email")
-					textarea.form-control.Contacto-escribir-total-formulario-item
+					.Contacto-escribir-total-formulario-first
+						input.form-control.Contacto-escribir-total-formulario-item(type="text" placeholder="Nombre")
+						input.form-control.Contacto-escribir-total-formulario-item(type="email" placeholder="Email")
+					textarea.form-control.Contacto-escribir-total-formulario-item--textarea(placeholder="Mensaje")
 					button(type="submit" class="btn Contacto-escribir-total-formulario-enviar") Enviar
 			a(href="").Contacto-escribir-minimo
 				h1.Contacto-escribir-minimo-title Escribenos

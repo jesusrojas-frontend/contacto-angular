@@ -51,8 +51,65 @@
 	}
 
 .Contacto-escribir-total{
-
+			padding: 2em 4em;
+			display: -webkit-box;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			        flex-direction: column;
 		}
+
+.Contacto-escribir-total-title{
+				text-transform: uppercase;
+				color: #129df2;
+				font-weight: bold;
+				margin-bottom: .5em;
+			}
+
+.Contacto-escribir-total-description{
+				color: #acacac;
+			}
+
+.Contacto-escribir-total-formulario-first{
+					display: -webkit-box;
+					display: flex;
+				}
+
+.Contacto-escribir-total-formulario-item{
+					border: none;
+					border-bottom: 3px solid #E5E5E4;
+					box-shadow: none;
+					margin-right: 2em;
+					margin-top: 2em;
+				}
+
+.Contacto-escribir-total-formulario-item--textarea{
+						border: none;
+						border-bottom: 3px solid #E5E5E4;
+						box-shadow: none;
+						margin-right: 2em;
+						margin-top: 2em;
+						margin-bottom: 2em;
+					}
+
+.Contacto-escribir-total-formulario-item--textarea:focus{
+							box-shadow: none;
+						}
+
+.Contacto-escribir-total-formulario-item:focus{
+						box-shadow: none;
+					}
+
+.Contacto-escribir-total-formulario-enviar{
+					color: #129df2;
+					background: none;
+					border-radius: 30px;
+					padding: .8em 1.3em;
+					border: 3px solid #E5E5E4;
+					font-weight: bold;
+					font-size: 25.6px;
+					font-size: 1.6rem;
+				}
 
 .Contacto-escribir-minimo{
 			padding: 2em;
@@ -185,6 +242,7 @@
 			font-size: 2rem;
 			padding: 2em 3em 0 3em;
 			text-align: center;
+			margin-bottom: 1em;
 		}
 
 .Contacto-informacion-minimo{
@@ -211,6 +269,7 @@
 				padding: .5em;
 				font-size: 40px;
 				text-align: center;
+				margin-bottom: .5em;
 			}
 
 .Contacto-informacion-minimo-span{
