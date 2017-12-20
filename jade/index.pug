@@ -3,6 +3,7 @@ html(lang="es")
 head
 	meta(charset="UTF-8")
 	title Contacto
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	link(rel="stylesheet", href="css/font-awesome.min.css")
 	link(rel="stylesheet", href="css/estilos.css")
@@ -26,9 +27,9 @@ body
 			</div>
 		</div>
 	</nav>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6516137294834!2d-74.05959178477983!3d4.656066296617825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a4333a1a275%3A0x91a59c01b85e3f59!2sPlatzi!5e0!3m2!1ses!2sve!4v1513777546521" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6516137294834!2d-74.05959178477983!3d4.656066296617825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a4333a1a275%3A0x91a59c01b85e3f59!2sPlatzi!5e0!3m2!1ses!2sve!4v1513777546521" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
 	section.Contacto
-		span.fa.fa-plus
+		span.fa.fa-plus.Contacto-boton
 		.Contacto-escribir
 			.Contacto-escribir-total
 				h1.Contacto-escribir-total-title Contactar
@@ -40,14 +41,16 @@ body
 					button(type="submit" class="btn Contacto-escribir-total-formulario-enviar") Enviar
 			a(href="").Contacto-escribir-minimo
 				h1.Contacto-escribir-minimo-title Escribenos
-				i.fa.fa-envelope-open
-				span.Contacto-escribir-minimo-title-span Click para iniciar
-				small.Contacto-escribir-minimo-title-correo platzi@contacto.com
+				.Contacto-escribir-minimo-fuente
+					i.fa.fa-envelope-open
+				h3.Contacto-escribir-minimo-span Click para iniciar
+				small.Contacto-escribir-minimo-correo platzisquare@contacto.com
 		.Contacto-informacion
-			h1 Informacion de contacto
+			h1.Contacto-informacion-title Informacion de contacto
 			a(href="").Contacto-informacion-minimo
-				i.fa.fa-info
-				span.Contacto-informacion-minimo-deslizar-span Click para ver
+				.Contacto-informacion-minimo-fuente
+					i.fa.fa-info
+				span.Contacto-informacion-minimo-span Click para ver
 				ul.Contacto-informacion-minimo-sociales
 					li.Contacto-informacion-minimo-sociales-item
 						i.fa.fa-facebook
@@ -57,22 +60,26 @@ body
 						i.fa.fa-globe
 			.Contacto-informacion-total
 				.Contacto-informacion-total-row
+					.Contacto-informacion-total-row-first
+						.Contacto-informacion-total-row-item
+							h2.Contacto-informacion-total-row-item-title Llamanos
+							p.Contacto-informacion-total-row-item-info 555-0125
+						.Contacto-informacion-total-row-item
+							h2.Contacto-informacion-total-row-item-title Vitanos
+							p.Contacto-informacion-total-row-item-info Platzi Avenida Calle 72, Bogotá, Bogotá, Colombia
 					.Contacto-informacion-total-row-item
-						h2.Contacto-informacion-total-item-title Llamanos
-						p.Contacto-informacion-total-item-info 555-0125
-					.Contacto-informacion-total-row-item
-						h2.Contacto-informacion-total-item-title Vitanos
-						p.Contacto-informacion-total-item-info Platzi Avenida Calle 72, Bogotá, Bogotá, Colombia
-					.Contacto-informacion-total-row-item
-						h2.Contacto-informacion-total-item-title Envianos un mensaje
-						p.Contacto-informacion-total-item-info platzi@contacto.com
-				.Contacto-informacion-total-sociales
-					ul.Contacto-informacion-total-sociales-bar
-						li.Contacto-informacion-total-sociales-bar-item
+						h2.Contacto-informacion-total-row-item-title Envianos un mensaje
+						p.Contacto-informacion-total-row-item-info platzisquare@contacto.com
+				ul.Contacto-informacion-total-sociales
+					li.Contacto-informacion-total-sociales-item
+						a(href="#")
 							i.fa.fa-facebook
-						li.Contacto-informacion-total-sociales-bar-item
+					li.Contacto-informacion-total-sociales-item
+						a(href="#")
 							i.fa.fa-twitter
-						li.Contacto-informacion-total-sociales-bar-item
+					li.Contacto-informacion-total-sociales-item
+						a(href="#")
 							i.fa.fa-youtube
-						li.Contacto-informacion-total-sociales-bar-item
+					li.Contacto-informacion-total-sociales-item
+						a(href="#")
 							i.fa.fa-globe

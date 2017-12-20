@@ -1,0 +1,241 @@
+.navbar-inverse{
+	background: linear-gradient(to left, #119df3, #2faefb);
+	border: none;
+	border-radius: 0;
+	margin: 0;
+}
+
+.navbar-inverse .navbar-collapse,.navbar-inverse a{
+		color: white !important
+	}
+
+.map{
+	height: 70vh;
+}
+
+.Contacto{
+	font-family: 'Montserrat', sans-serif;
+	width: 70%;
+	margin: 2em auto;
+	display: -webkit-box;
+	display: flex;
+	box-shadow: 2px 4px 19px 6px #eee;
+	border-radius: 5px;
+	position: absolute;
+	left: 15%;
+	bottom: 5%;
+}
+
+.Contacto-container{
+		overflow: hidden;
+	}
+
+.Contacto-boton{
+		color: #129df2;
+		background: white;
+		position: absolute;
+		top: -1em;
+		width: 50px;
+		height: 50px;
+		line-height: 25px;
+		right: 2em;
+		border-radius: 50%;
+		font-size: 28px;
+		padding: .5em;
+	}
+
+.Contacto-escribir{
+		background: white;
+		width: 70%;
+		padding: 2em;
+	}
+
+.Contacto-escribir-total{
+
+		}
+
+.Contacto-escribir-minimo{
+			padding: 2em;
+			display: -webkit-box;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			        flex-direction: column;
+			text-align: center;
+			/*---------- Desaparecer ----------*/
+			display: none;
+		}
+
+/*---------- Desaparecer ----------*/
+
+.Contacto-escribir-minimo:hover{
+				text-decoration: none;
+			}
+
+.Contacto-escribir-minimo-title{
+				color: #129df2;
+				text-transform: uppercase;
+				font-size: 40px;
+				font-size: 2.5rem;
+				font-weight: bold;
+				padding-bottom: 1em;
+			}
+
+.Contacto-escribir-minimo-fuente{
+				padding-bottom: 1em;
+			}
+
+.Contacto-escribir-minimo i{
+				color: #129df2;
+				border-radius: 50%;
+				border: 1px solid #129df2;
+				width: 80px;
+				height: 80px;
+				line-height: 30px;
+				padding: .5em;
+				font-size: 40px;
+				text-align: center;
+			}
+
+.Contacto-escribir-minimo-span{
+				color: #acacac;
+				text-transform: lowercase;
+				padding-bottom: 1em;
+			}
+
+.Contacto-escribir-minimo-correo{
+				color: #acacac;
+				font-weight: medium;
+				font-size: 19.2px;
+				font-size: 1.2rem;
+			}
+
+.Contacto-informacion{
+		width: 30%;
+		background: linear-gradient(to left, #119df3, #2faefb);
+	}
+
+.Contacto-informacion-title{
+			font-weight: bold;
+			color: white;
+		}
+
+.Contacto-informacion-total{
+			/*---------- Desaparecer ----------*/
+			display: none;
+			/*---------- Desaparecer ----------*/
+			padding: 4em 10em 4em 8em;
+		}
+
+.Contacto-informacion-total-row{
+				margin-top: 1em;
+				display: -webkit-box;
+				display: flex;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				        flex-direction: column;
+			}
+
+.Contacto-informacion-total-row-first{
+					display: -webkit-box;
+					display: flex;
+					-webkit-box-pack: justify;
+					        justify-content: space-between;
+				}
+
+.Contacto-informacion-total-row-item-title{
+						color: white;
+						text-transform: uppercase;
+						font-size: 32px;
+						font-size: 2rem;
+						font-weight: bold;
+						padding-right: 3em;
+					}
+
+.Contacto-informacion-total-row-item-info{
+						color: #a0d6fd;
+						font-weight: 500;
+						font-size: 24px;
+						font-size: 1.5rem;
+					}
+
+.Contacto-informacion-total-sociales{
+				display: -webkit-box;
+				display: flex;
+				-webkit-box-pack: justify;
+				        justify-content: space-between;
+				width: 60%;
+				margin: 0;
+				padding: 0;
+				padding: 1em 0;
+			}
+
+.Contacto-informacion-total-sociales-item{
+					list-style: none;
+					font-size: 28.8px;
+					font-size: 1.8rem;
+				}
+
+.Contacto-informacion-total-sociales-item a{
+						color: #a0d6fd;
+					}
+
+.Contacto-informacion .Contacto-informacion-title{
+			font-size: 32px;
+			font-size: 2rem;
+			padding: 2em 3em 0 3em;
+			text-align: center;
+		}
+
+.Contacto-informacion-minimo{
+			text-align: center;
+			padding: 1em 3em 4em 3em;
+			display: -webkit-box;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			        flex-direction: column;
+		}
+
+.Contacto-informacion-minimo:hover{
+				text-decoration: none;
+			}
+
+.Contacto-informacion-minimo i{
+				color: white;
+				border-radius: 50%;
+				border: 1px solid white;
+				width: 80px;
+				height: 80px;
+				line-height: 40px;
+				padding: .5em;
+				font-size: 40px;
+				text-align: center;
+			}
+
+.Contacto-informacion-minimo-span{
+				color: white;
+				font-size: 28.8px;
+				font-size: 1.8rem;
+				font-weight: 500;
+				padding-top: 1em;
+			}
+
+.Contacto-informacion-minimo-sociales{
+				display: -webkit-box;
+				display: flex;
+				-webkit-box-pack: justify;
+				        justify-content: space-between;
+				padding: 2em;
+			}
+
+.Contacto-informacion-minimo-sociales-item{
+					list-style: none;
+				}
+
+.Contacto-informacion-minimo-sociales-item i{
+						width: 40px;
+						height: 40px;
+						line-height: 20px;
+						font-size: 20px;
+					}

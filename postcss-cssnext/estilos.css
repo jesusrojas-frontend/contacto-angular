@@ -1,0 +1,199 @@
+:root{
+	--colorAzul: #129df2;
+	--colorTexto: #a0d6fd;
+	--colorClaro: #acacac;
+	--bg-gradient: #129df2;
+	--bg-gradient-start: #119df3;
+	--bg-gradient-end: #2faefb;
+	--fuente: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse{
+	background: linear-gradient(to left, var(--bg-gradient-start), var(--bg-gradient-end));
+	border: none;
+	border-radius: 0;
+	margin: 0;
+	.navbar-collapse,a{
+		color: white !important
+	}
+}
+.map{
+	height: 70vh;
+}
+.Contacto{
+	font-family: var(--fuente);
+	width: 70%;
+	margin: 2em auto;
+	display: flex;
+	box-shadow: 2px 4px 19px 6px #eee;
+	border-radius: 5px;
+	position: absolute;
+	left: 15%;
+	bottom: 5%;
+	&-container{
+		overflow: hidden;
+	}
+	&-boton{
+		color: var(--colorAzul);
+		background: white;
+		position: absolute;
+		top: -1em;
+		width: 50px;
+		height: 50px;
+		line-height: 25px;
+		right: 2em;
+		border-radius: 50%;
+		font-size: 28px;
+		padding: .5em;
+	}
+	&-escribir{
+		background: white;
+		width: 70%;
+		padding: 2em;
+		&-total{
+
+		}
+		&-minimo{
+			padding: 2em;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			/*---------- Desaparecer ----------*/
+			display: none;
+			/*---------- Desaparecer ----------*/
+			&:hover{
+				text-decoration: none;
+			}
+			&-title{
+				color: var(--colorAzul);
+				text-transform: uppercase;
+				font-size: 2.5rem;
+				font-weight: bold;
+				padding-bottom: 1em;
+			}
+			&-fuente{
+				padding-bottom: 1em;
+			}
+			i{
+				color: var(--colorAzul);
+				border-radius: 50%;
+				border: 1px solid var(--colorAzul);
+				width: 80px;
+				height: 80px;
+				line-height: 30px;
+				padding: .5em;
+				font-size: 40px;
+				text-align: center;
+			}
+			&-span{
+				color: var(--colorClaro);
+				text-transform: lowercase;
+				padding-bottom: 1em;
+			}
+			&-correo{
+				color: var(--colorClaro);
+				font-weight: medium;
+				font-size: 1.2rem;
+			}
+		}
+	}
+	&-informacion{
+		width: 30%;
+		background: linear-gradient(to left, var(--bg-gradient-start), var(--bg-gradient-end));
+		
+		&-title{
+			font-weight: bold;
+			color: white;
+		}
+		
+		&-total{
+			/*---------- Desaparecer ----------*/
+			display: none;
+			/*---------- Desaparecer ----------*/
+			padding: 4em 10em 4em 8em;
+			&-row{
+				margin-top: 1em;
+				display: flex;
+				flex-direction: column;
+				&-first{
+					display: flex;
+					justify-content: space-between;
+				}
+				&-item{
+					&-title{
+						color: white;
+						text-transform: uppercase;
+						font-size: 2rem;
+						font-weight: bold;
+						padding-right: 3em;
+					}
+					&-info{
+						color: var(--colorTexto);
+						font-weight: 500;
+						font-size: 1.5rem;
+					}
+				}
+			}
+			&-sociales{
+				display: flex;
+				justify-content: space-between;
+				width: 60%;
+				margin: 0;
+				padding: 0;
+				padding: 1em 0;
+				&-item{
+					list-style: none;
+					font-size: 1.8rem;
+					a{
+						color: var(--colorTexto);
+					}
+				}
+			}
+		}
+		.Contacto-informacion-title{
+			font-size: 2rem;
+			padding: 2em 3em 0 3em;
+			text-align: center;
+		}
+		&-minimo{
+			text-align: center;
+			padding: 1em 3em 4em 3em;
+			display: flex;
+			flex-direction: column;
+			&:hover{
+				text-decoration: none;
+			}
+			i{
+				color: white;
+				border-radius: 50%;
+				border: 1px solid white;
+				width: 80px;
+				height: 80px;
+				line-height: 40px;
+				padding: .5em;
+				font-size: 40px;
+				text-align: center;
+			}
+			&-span{
+				color: white;
+				font-size: 1.8rem;
+				font-weight: 500;
+				padding-top: 1em;
+			}
+			&-sociales{
+				display: flex;
+				justify-content: space-between;
+				padding: 2em;
+				&-item{
+					list-style: none;
+					i{
+						width: 40px;
+						height: 40px;
+						line-height: 20px;
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}
