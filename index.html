@@ -27,9 +27,9 @@
 </div>
 </nav>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6516137294834!2d-74.05959178477983!3d4.656066296617825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a4333a1a275%3A0x91a59c01b85e3f59!2sPlatzi!5e0!3m2!1ses!2sve!4v1513777546521" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
-  <section class="Contacto"><span class="fa fa-plus Contacto-boton"></span>
-    <div class="Contacto-escribir">
-      <div class="Contacto-escribir-total">
+  <section class="Contacto" id="Contacto"><span class="fa fa-plus Contacto-boton" id="toggle"></span>
+    <div class="Contacto-escribir" id="contacto-escribir">
+      <div class="Contacto-escribir-total" id="escribir-total">
         <h1 class="Contacto-escribir-total-title">Contactar</h1>
         <p class="Contacto-escribir-total-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt cumque, ipsum eligendi libero rerum! Ipsam laudantium excepturi.</p>
         <form class="Contacto-escribir-total-formulario">
@@ -40,20 +40,20 @@
           <textarea class="form-control Contacto-escribir-total-formulario-item--textarea" placeholder="Mensaje"></textarea>
           <button class="btn Contacto-escribir-total-formulario-enviar" type="submit">Enviar</button>
         </form>
-      </div><a class="Contacto-escribir-minimo" href="">
+      </div><span class="Contacto-escribir-minimo active" id="contacto">
         <h1 class="Contacto-escribir-minimo-title">Escribenos</h1>
         <div class="Contacto-escribir-minimo-fuente"><i class="fa fa-envelope-open"></i></div>
-        <h3 class="Contacto-escribir-minimo-span">Click para iniciar</h3><small class="Contacto-escribir-minimo-correo">platzisquare@contacto.com</small></a>
+        <h3 class="Contacto-escribir-minimo-span">Click para iniciar</h3><small class="Contacto-escribir-minimo-correo">platzisquare@contacto.com</small></span>
     </div>
-    <div class="Contacto-informacion">
-      <h1 class="Contacto-informacion-title">Informacion de contacto</h1><a class="Contacto-informacion-minimo" href="">
+    <div class="Contacto-informacion active" id="contacto-informacion">
+      <h1 class="Contacto-informacion-title active" id="titulo">Informacion de contacto</h1><span class="Contacto-informacion-minimo" id="informacion">
         <div class="Contacto-informacion-minimo-fuente"><i class="fa fa-info"></i></div><span class="Contacto-informacion-minimo-span">Click para ver</span>
         <ul class="Contacto-informacion-minimo-sociales">
           <li class="Contacto-informacion-minimo-sociales-item"><i class="fa fa-facebook"></i></li>
           <li class="Contacto-informacion-minimo-sociales-item"><i class="fa fa-twitter"></i></li>
           <li class="Contacto-informacion-minimo-sociales-item"><i class="fa fa-globe"></i></li>
-        </ul></a>
-      <div class="Contacto-informacion-total">
+        </ul></span>
+      <div class="Contacto-informacion-total active" id="informacion-minimo">
         <div class="Contacto-informacion-total-row">
           <div class="Contacto-informacion-total-row-first">
             <div class="Contacto-informacion-total-row-item">
@@ -79,4 +79,5 @@
       </div>
     </div>
   </section>
+  <script src="js/app.js"></script>
 </body>

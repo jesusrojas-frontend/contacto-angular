@@ -28,10 +28,10 @@ body
 		</div>
 	</nav>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6516137294834!2d-74.05959178477983!3d4.656066296617825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a4333a1a275%3A0x91a59c01b85e3f59!2sPlatzi!5e0!3m2!1ses!2sve!4v1513777546521" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
-	section.Contacto
-		span.fa.fa-plus.Contacto-boton
-		.Contacto-escribir
-			.Contacto-escribir-total
+	section.Contacto#Contacto
+		span.fa.fa-plus.Contacto-boton#toggle
+		.Contacto-escribir#contacto-escribir
+			.Contacto-escribir-total#escribir-total
 				h1.Contacto-escribir-total-title Contactar
 				p.Contacto-escribir-total-description  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt cumque, ipsum eligendi libero rerum! Ipsam laudantium excepturi.
 				form.Contacto-escribir-total-formulario
@@ -40,15 +40,15 @@ body
 						input.form-control.Contacto-escribir-total-formulario-item(type="email" placeholder="Email")
 					textarea.form-control.Contacto-escribir-total-formulario-item--textarea(placeholder="Mensaje")
 					button(type="submit" class="btn Contacto-escribir-total-formulario-enviar") Enviar
-			a(href="").Contacto-escribir-minimo
+			span.Contacto-escribir-minimo.active#contacto
 				h1.Contacto-escribir-minimo-title Escribenos
 				.Contacto-escribir-minimo-fuente
 					i.fa.fa-envelope-open
 				h3.Contacto-escribir-minimo-span Click para iniciar
 				small.Contacto-escribir-minimo-correo platzisquare@contacto.com
-		.Contacto-informacion
-			h1.Contacto-informacion-title Informacion de contacto
-			a(href="").Contacto-informacion-minimo
+		.Contacto-informacion.active#contacto-informacion
+			h1.Contacto-informacion-title.active#titulo Informacion de contacto
+			span.Contacto-informacion-minimo#informacion
 				.Contacto-informacion-minimo-fuente
 					i.fa.fa-info
 				span.Contacto-informacion-minimo-span Click para ver
@@ -59,7 +59,7 @@ body
 						i.fa.fa-twitter
 					li.Contacto-informacion-minimo-sociales-item
 						i.fa.fa-globe
-			.Contacto-informacion-total
+			.Contacto-informacion-total.active#informacion-minimo
 				.Contacto-informacion-total-row
 					.Contacto-informacion-total-row-first
 						.Contacto-informacion-total-row-item
@@ -84,3 +84,5 @@ body
 					li.Contacto-informacion-total-sociales-item
 						a(href="#")
 							i.fa.fa-globe
+	
+	script(src="js/app.js")

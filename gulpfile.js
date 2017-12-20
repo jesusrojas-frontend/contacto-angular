@@ -41,7 +41,8 @@ gulp.task('css', ()=>{
 gulp.task('watch', ()=>{
 	gulp.watch('./postcss-cssnext/*.css', ['css'])
 	gulp.watch('./jade/*.pug', ['pug'])
-	gulp.watch('./*.html').on('change', browserSync.reload)
+  gulp.watch('./*.html').on('change', browserSync.reload)
+	gulp.watch('./js/*.js').on('change', browserSync.reload)
 })
 gulp.task('pug', ()=>{
   gulp.src('./jade/*.pug')
