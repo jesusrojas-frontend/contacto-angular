@@ -46,7 +46,13 @@ span:hover{
 		border-radius: 50%;
 		font-size: 28px;
 		padding: .5em;
+		transition: all .3s;
 	}
+
+.Contacto-boton.active{
+			-webkit-transform: rotate(45deg);
+			        transform: rotate(45deg);
+		}
 
 .Contacto-escribir{
 		display: none;

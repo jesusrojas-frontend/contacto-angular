@@ -23,5 +23,7 @@ function toggle(){
 };
 function toggleContacto() {
   $contacto.classList.toggle('active');
+  $toggle.classList.toggle('active');
+  
   console.log("Contacto")
 }

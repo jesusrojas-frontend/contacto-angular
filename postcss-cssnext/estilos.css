@@ -48,6 +48,10 @@ span:hover{
 		border-radius: 50%;
 		font-size: 28px;
 		padding: .5em;
+		transition: var(--transition);
+		&.active{
+			transform: rotate(45deg);
+		}
 	}
 	&-escribir{
 		display: none;
